@@ -2,3 +2,9 @@
 5	226	7615275892840106	CMakeFiles/CSE-114-Projects.dir/miles-to-km.c.obj	77e9f2b049d9880c
 228	510	7615275895069054	CSE-114-Projects.exe	c718a0a8c3d6f018
 12	205	7615030130046501	CMakeFiles/CSE-114-Projects.dir/test.c.obj	a06c05ed8cfdb959
+7	262	7615287167343552	CMakeFiles/main.dir/main.c.obj	4a798231ebf86d71
+263	570	7615287169907860	main.exe	eb8cedfbb1f1a494
+4	209	7615287356651606	CMakeFiles/hello_world.dir/hello_world.c.obj	22bafff80177817b
+243	534	7615287359043983	hello_world.exe	38c1f8e7bea77b61
+7	216	7615288635567110	CMakeFiles/miles_to_km.dir/miles-to-km.c.obj	4e9bce03c6810e44
+217	480	7615288637677279	miles_to_km.exe	5fd5e8629987bcbb

@@ -875,7 +875,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "Project"
+			"value" : "CSE-114-Projects"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
