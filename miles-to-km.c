@@ -11,6 +11,6 @@ int main() {
     printf("Enter miles: ");
     scanf("%lf", &miles);
     km = miles_to_km(miles);
-    printf("%.2lf miles is equal to %.2lf km\n", miles, km);
+    printf("%.2f miles is equal to %.2f km\n", miles, km);
     return 0;
 }
