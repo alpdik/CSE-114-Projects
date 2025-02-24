@@ -25,7 +25,8 @@
 						7,
 						8,
 						9,
-						10
+						10,
+						11
 					]
 				}
 			],
@@ -50,7 +51,8 @@
 						7,
 						8,
 						9,
-						10
+						10,
+						11
 					]
 				}
 			],
@@ -68,6 +70,13 @@
 					"id" : "c_to_f::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-c_to_f-Debug-b1d9604fd748758d5346.json",
 					"name" : "c_to_f",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "capital_small_letter::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-capital_small_letter-Debug-a5f9e3a2ffca02cca4cf.json",
+					"name" : "capital_small_letter",
 					"projectIndex" : 0
 				},
 				{

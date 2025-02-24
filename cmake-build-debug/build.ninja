@@ -403,6 +403,39 @@ build single_blank.exe: C_EXECUTABLE_LINKER__single_blank_Debug CMakeFiles/singl
   TARGET_IMPLIB = libsingle_blank.dll.a
   TARGET_PDB = single_blank.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target capital_small_letter
+
+
+#############################################
+# Order-only phony target for capital_small_letter
+
+build cmake_object_order_depends_target_capital_small_letter: phony || .
+
+build CMakeFiles/capital_small_letter.dir/capital_small_letter.c.obj: C_COMPILER__capital_small_letter_unscanned_Debug C$:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/capital_small_letter.c || cmake_object_order_depends_target_capital_small_letter
+  DEP_FILE = CMakeFiles\capital_small_letter.dir\capital_small_letter.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\capital_small_letter.dir
+  OBJECT_FILE_DIR = CMakeFiles\capital_small_letter.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target capital_small_letter
+
+
+#############################################
+# Link the executable capital_small_letter.exe
+
+build capital_small_letter.exe: C_EXECUTABLE_LINKER__capital_small_letter_Debug CMakeFiles/capital_small_letter.dir/capital_small_letter.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\capital_small_letter.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = capital_small_letter.exe
+  TARGET_IMPLIB = libcapital_small_letter.dll.a
+  TARGET_PDB = capital_small_letter.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -433,6 +466,8 @@ build blank_tab_new_line: phony blank_tab_new_line.exe
 
 build c_to_f: phony c_to_f.exe
 
+build capital_small_letter: phony capital_small_letter.exe
+
 build char_counter: phony char_counter.exe
 
 build epp: phony epp.exe
@@ -459,7 +494,7 @@ build single_blank: phony single_blank.exe
 #############################################
 # Folder: C:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/cmake-build-debug
 
-build all: phony main.exe hello_world.exe miles_to_km.exe f_to_c.exe c_to_f.exe f_to_c2.exe epp.exe epp2.exe char_counter.exe blank_tab_new_line.exe single_blank.exe
+build all: phony main.exe hello_world.exe miles_to_km.exe f_to_c.exe c_to_f.exe f_to_c2.exe epp.exe epp2.exe char_counter.exe blank_tab_new_line.exe single_blank.exe capital_small_letter.exe
 
 # =============================================================================
 # Built-in targets

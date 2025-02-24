@@ -9,5 +9,6 @@ C:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/cmake-build-debug/CMake
 C:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/cmake-build-debug/CMakeFiles/char_counter.dir
 C:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/cmake-build-debug/CMakeFiles/blank_tab_new_line.dir
 C:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/cmake-build-debug/CMakeFiles/single_blank.dir
+C:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/cmake-build-debug/CMakeFiles/capital_small_letter.dir
 C:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/cmake-build-debug/CMakeFiles/rebuild_cache.dir
