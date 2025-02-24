@@ -1,5 +1,13 @@
 C:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/cmake-build-debug/CMakeFiles/main.dir
 C:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/cmake-build-debug/CMakeFiles/hello_world.dir
 C:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/cmake-build-debug/CMakeFiles/miles_to_km.dir
+C:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/cmake-build-debug/CMakeFiles/f_to_c.dir
+C:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/cmake-build-debug/CMakeFiles/c_to_f.dir
+C:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/cmake-build-debug/CMakeFiles/f_to_c2.dir
+C:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/cmake-build-debug/CMakeFiles/epp.dir
+C:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/cmake-build-debug/CMakeFiles/epp2.dir
+C:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/cmake-build-debug/CMakeFiles/char_counter.dir
+C:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/cmake-build-debug/CMakeFiles/blank_tab_new_line.dir
+C:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/cmake-build-debug/CMakeFiles/single_blank.dir
 C:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/cmake-build-debug/CMakeFiles/rebuild_cache.dir

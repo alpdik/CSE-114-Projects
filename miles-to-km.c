@@ -1,11 +1,9 @@
 #include <stdio.h>
 
-double constant = 1.60934;
-
 double miles_to_km(double miles) {
+    double constant = 1.60934;
     return miles * constant;
 }
-
 int main() {
     double miles, km;
     printf("Enter miles: ");
