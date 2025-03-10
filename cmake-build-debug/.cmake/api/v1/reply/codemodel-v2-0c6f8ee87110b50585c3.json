@@ -26,7 +26,8 @@
 						8,
 						9,
 						10,
-						11
+						11,
+						12
 					]
 				}
 			],
@@ -52,7 +53,8 @@
 						8,
 						9,
 						10,
-						11
+						11,
+						12
 					]
 				}
 			],
@@ -119,6 +121,13 @@
 					"id" : "hello_world::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-hello_world-Debug-2467500d016bb376766a.json",
 					"name" : "hello_world",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "labwork-1-1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-labwork-1-1-Debug-8c90b268a00108766277.json",
+					"name" : "labwork-1-1",
 					"projectIndex" : 0
 				},
 				{

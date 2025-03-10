@@ -436,6 +436,39 @@ build capital_small_letter.exe: C_EXECUTABLE_LINKER__capital_small_letter_Debug 
   TARGET_IMPLIB = libcapital_small_letter.dll.a
   TARGET_PDB = capital_small_letter.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target labwork-1-1
+
+
+#############################################
+# Order-only phony target for labwork-1-1
+
+build cmake_object_order_depends_target_labwork-1-1: phony || .
+
+build CMakeFiles/labwork-1-1.dir/labwork-1-1.c.obj: C_COMPILER__labwork-1-1_unscanned_Debug C$:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/labwork-1-1.c || cmake_object_order_depends_target_labwork-1-1
+  DEP_FILE = CMakeFiles\labwork-1-1.dir\labwork-1-1.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\labwork-1-1.dir
+  OBJECT_FILE_DIR = CMakeFiles\labwork-1-1.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target labwork-1-1
+
+
+#############################################
+# Link the executable labwork-1-1.exe
+
+build labwork-1-1.exe: C_EXECUTABLE_LINKER__labwork-1-1_Debug CMakeFiles/labwork-1-1.dir/labwork-1-1.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\labwork-1-1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = labwork-1-1.exe
+  TARGET_IMPLIB = liblabwork-1-1.dll.a
+  TARGET_PDB = labwork-1-1.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -480,6 +513,8 @@ build f_to_c2: phony f_to_c2.exe
 
 build hello_world: phony hello_world.exe
 
+build labwork-1-1: phony labwork-1-1.exe
+
 build main: phony main.exe
 
 build miles_to_km: phony miles_to_km.exe
@@ -494,7 +529,7 @@ build single_blank: phony single_blank.exe
 #############################################
 # Folder: C:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/cmake-build-debug
 
-build all: phony main.exe hello_world.exe miles_to_km.exe f_to_c.exe c_to_f.exe f_to_c2.exe epp.exe epp2.exe char_counter.exe blank_tab_new_line.exe single_blank.exe capital_small_letter.exe
+build all: phony main.exe hello_world.exe miles_to_km.exe f_to_c.exe c_to_f.exe f_to_c2.exe epp.exe epp2.exe char_counter.exe blank_tab_new_line.exe single_blank.exe capital_small_letter.exe labwork-1-1.exe
 
 # =============================================================================
 # Built-in targets
