@@ -6,7 +6,7 @@
   main()
   {
       int c=5;
-      while (c!=EOF)
+      while (c!=EOF+1)
         {
           c=c-1;
           printf("%d\n",c);
