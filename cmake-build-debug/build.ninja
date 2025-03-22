@@ -502,6 +502,39 @@ build letter_grades.exe: C_EXECUTABLE_LINKER__letter_grades_Debug CMakeFiles/let
   TARGET_IMPLIB = libletter_grades.dll.a
   TARGET_PDB = letter_grades.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target alp_dikmen
+
+
+#############################################
+# Order-only phony target for alp_dikmen
+
+build cmake_object_order_depends_target_alp_dikmen: phony || .
+
+build CMakeFiles/alp_dikmen.dir/alp_dikmen.c.obj: C_COMPILER__alp_dikmen_unscanned_Debug C$:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/alp_dikmen.c || cmake_object_order_depends_target_alp_dikmen
+  DEP_FILE = CMakeFiles\alp_dikmen.dir\alp_dikmen.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\alp_dikmen.dir
+  OBJECT_FILE_DIR = CMakeFiles\alp_dikmen.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target alp_dikmen
+
+
+#############################################
+# Link the executable alp_dikmen.exe
+
+build alp_dikmen.exe: C_EXECUTABLE_LINKER__alp_dikmen_Debug CMakeFiles/alp_dikmen.dir/alp_dikmen.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\alp_dikmen.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = alp_dikmen.exe
+  TARGET_IMPLIB = libalp_dikmen.dll.a
+  TARGET_PDB = alp_dikmen.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -527,6 +560,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Target aliases.
+
+build alp_dikmen: phony alp_dikmen.exe
 
 build blank_tab_new_line: phony blank_tab_new_line.exe
 
@@ -564,7 +599,7 @@ build single_blank: phony single_blank.exe
 #############################################
 # Folder: C:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/cmake-build-debug
 
-build all: phony main.exe hello_world.exe miles_to_km.exe f_to_c.exe c_to_f.exe f_to_c2.exe epp.exe epp2.exe char_counter.exe blank_tab_new_line.exe single_blank.exe capital_small_letter.exe labwork-1-1.exe letter_grades.exe
+build all: phony main.exe hello_world.exe miles_to_km.exe f_to_c.exe c_to_f.exe f_to_c2.exe epp.exe epp2.exe char_counter.exe blank_tab_new_line.exe single_blank.exe capital_small_letter.exe labwork-1-1.exe letter_grades.exe alp_dikmen.exe
 
 # =============================================================================
 # Built-in targets
