@@ -469,6 +469,39 @@ build labwork-1-1.exe: C_EXECUTABLE_LINKER__labwork-1-1_Debug CMakeFiles/labwork
   TARGET_IMPLIB = liblabwork-1-1.dll.a
   TARGET_PDB = labwork-1-1.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target letter_grades
+
+
+#############################################
+# Order-only phony target for letter_grades
+
+build cmake_object_order_depends_target_letter_grades: phony || .
+
+build CMakeFiles/letter_grades.dir/letter_grades.c.obj: C_COMPILER__letter_grades_unscanned_Debug C$:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/letter_grades.c || cmake_object_order_depends_target_letter_grades
+  DEP_FILE = CMakeFiles\letter_grades.dir\letter_grades.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\letter_grades.dir
+  OBJECT_FILE_DIR = CMakeFiles\letter_grades.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target letter_grades
+
+
+#############################################
+# Link the executable letter_grades.exe
+
+build letter_grades.exe: C_EXECUTABLE_LINKER__letter_grades_Debug CMakeFiles/letter_grades.dir/letter_grades.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\letter_grades.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = letter_grades.exe
+  TARGET_IMPLIB = libletter_grades.dll.a
+  TARGET_PDB = letter_grades.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -515,6 +548,8 @@ build hello_world: phony hello_world.exe
 
 build labwork-1-1: phony labwork-1-1.exe
 
+build letter_grades: phony letter_grades.exe
+
 build main: phony main.exe
 
 build miles_to_km: phony miles_to_km.exe
@@ -529,7 +564,7 @@ build single_blank: phony single_blank.exe
 #############################################
 # Folder: C:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/cmake-build-debug
 
-build all: phony main.exe hello_world.exe miles_to_km.exe f_to_c.exe c_to_f.exe f_to_c2.exe epp.exe epp2.exe char_counter.exe blank_tab_new_line.exe single_blank.exe capital_small_letter.exe labwork-1-1.exe
+build all: phony main.exe hello_world.exe miles_to_km.exe f_to_c.exe c_to_f.exe f_to_c2.exe epp.exe epp2.exe char_counter.exe blank_tab_new_line.exe single_blank.exe capital_small_letter.exe labwork-1-1.exe letter_grades.exe
 
 # =============================================================================
 # Built-in targets
