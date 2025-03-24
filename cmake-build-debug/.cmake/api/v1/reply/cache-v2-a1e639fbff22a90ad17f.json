@@ -15,7 +15,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/MinGW/bin/addr2line.exe"
+			"value" : "C:/Users/alpdi/AppData/Local/Programs/CLion/bin/mingw/bin/addr2line.exe"
 		},
 		{
 			"name" : "CMAKE_AR",
@@ -31,7 +31,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/MinGW/bin/ar.exe"
+			"value" : "C:/Users/alpdi/AppData/Local/Programs/CLion/bin/mingw/bin/ar.exe"
 		},
 		{
 			"name" : "CMAKE_BUILD_TYPE",
@@ -142,150 +142,6 @@
 			"value" : "C:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/ctest.exe"
 		},
 		{
-			"name" : "CMAKE_CXX_COMPILER",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "CXX compiler"
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "C:/MinGW/bin/c++.exe"
-		},
-		{
-			"name" : "CMAKE_CXX_COMPILER_AR",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "C:/MinGW/bin/gcc-ar.exe"
-		},
-		{
-			"name" : "CMAKE_CXX_COMPILER_RANLIB",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "C:/MinGW/bin/gcc-ranlib.exe"
-		},
-		{
-			"name" : "CMAKE_CXX_FLAGS",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Flags used by the CXX compiler during all build types."
-				}
-			],
-			"type" : "STRING",
-			"value" : ""
-		},
-		{
-			"name" : "CMAKE_CXX_FLAGS_DEBUG",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Flags used by the CXX compiler during DEBUG builds."
-				}
-			],
-			"type" : "STRING",
-			"value" : "-g"
-		},
-		{
-			"name" : "CMAKE_CXX_FLAGS_MINSIZEREL",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Flags used by the CXX compiler during MINSIZEREL builds."
-				}
-			],
-			"type" : "STRING",
-			"value" : "-Os -DNDEBUG"
-		},
-		{
-			"name" : "CMAKE_CXX_FLAGS_RELEASE",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Flags used by the CXX compiler during RELEASE builds."
-				}
-			],
-			"type" : "STRING",
-			"value" : "-O3 -DNDEBUG"
-		},
-		{
-			"name" : "CMAKE_CXX_FLAGS_RELWITHDEBINFO",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Flags used by the CXX compiler during RELWITHDEBINFO builds."
-				}
-			],
-			"type" : "STRING",
-			"value" : "-O2 -g -DNDEBUG"
-		},
-		{
-			"name" : "CMAKE_CXX_STANDARD_LIBRARIES",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Libraries linked by default with all C++ applications."
-				}
-			],
-			"type" : "STRING",
-			"value" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32"
-		},
-		{
 			"name" : "CMAKE_C_COMPILER",
 			"properties" : 
 			[
@@ -299,7 +155,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/MinGW/bin/gcc.exe"
+			"value" : "C:/Users/alpdi/AppData/Local/Programs/CLion/bin/mingw/bin/gcc.exe"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_AR",
@@ -315,7 +171,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/MinGW/bin/gcc-ar.exe"
+			"value" : "C:/Users/alpdi/AppData/Local/Programs/CLion/bin/mingw/bin/gcc-ar.exe"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_RANLIB",
@@ -331,7 +187,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/MinGW/bin/gcc-ranlib.exe"
+			"value" : "C:/Users/alpdi/AppData/Local/Programs/CLion/bin/mingw/bin/gcc-ranlib.exe"
 		},
 		{
 			"name" : "CMAKE_C_FLAGS",
@@ -443,7 +299,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/MinGW/bin/dlltool.exe"
+			"value" : "C:/Users/alpdi/AppData/Local/Programs/CLion/bin/mingw/bin/dlltool.exe"
 		},
 		{
 			"name" : "CMAKE_EXECUTABLE_FORMAT",
@@ -659,7 +515,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/MyProject"
+			"value" : "C:/Program Files (x86)/CSE-114-Projects"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -675,7 +531,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/MinGW/bin/ld.exe"
+			"value" : "C:/Users/alpdi/AppData/Local/Programs/CLion/bin/mingw/bin/ld.exe"
 		},
 		{
 			"name" : "CMAKE_MAKE_PROGRAM",
@@ -783,7 +639,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/MinGW/bin/nm.exe"
+			"value" : "C:/Users/alpdi/AppData/Local/Programs/CLion/bin/mingw/bin/nm.exe"
 		},
 		{
 			"name" : "CMAKE_NUMBER_OF_MAKEFILES",
@@ -811,7 +667,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/MinGW/bin/objcopy.exe"
+			"value" : "C:/Users/alpdi/AppData/Local/Programs/CLion/bin/mingw/bin/objcopy.exe"
 		},
 		{
 			"name" : "CMAKE_OBJDUMP",
@@ -827,7 +683,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/MinGW/bin/objdump.exe"
+			"value" : "C:/Users/alpdi/AppData/Local/Programs/CLion/bin/mingw/bin/objdump.exe"
 		},
 		{
 			"name" : "CMAKE_PLATFORM_INFO_INITIALIZED",
@@ -891,7 +747,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/MinGW/bin/ranlib.exe"
+			"value" : "C:/Users/alpdi/AppData/Local/Programs/CLion/bin/mingw/bin/ranlib.exe"
 		},
 		{
 			"name" : "CMAKE_RC_COMPILER",
@@ -907,7 +763,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/MinGW/bin/windres.exe"
+			"value" : "C:/Users/alpdi/AppData/Local/Programs/CLion/bin/mingw/bin/windres.exe"
 		},
 		{
 			"name" : "CMAKE_RC_COMPILER_WORKS",
@@ -1015,7 +871,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/MinGW/bin/readelf.exe"
+			"value" : "C:/Users/alpdi/AppData/Local/Programs/CLion/bin/mingw/bin/readelf.exe"
 		},
 		{
 			"name" : "CMAKE_ROOT",
@@ -1235,7 +1091,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/MinGW/bin/strip.exe"
+			"value" : "C:/Users/alpdi/AppData/Local/Programs/CLion/bin/mingw/bin/strip.exe"
 		},
 		{
 			"name" : "CMAKE_TAPI",
@@ -1295,114 +1151,6 @@
 		},
 		{
 			"name" : "CSE-114-Projects_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects"
-		},
-		{
-			"name" : "CSE_114_Projects_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/cmake-build-debug"
-		},
-		{
-			"name" : "CSE_114_Projects_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "ON"
-		},
-		{
-			"name" : "CSE_114_Projects_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects"
-		},
-		{
-			"name" : "MyProject_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/cmake-build-debug"
-		},
-		{
-			"name" : "MyProject_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "ON"
-		},
-		{
-			"name" : "MyProject_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects"
-		},
-		{
-			"name" : "Project_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/cmake-build-debug"
-		},
-		{
-			"name" : "Project_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "ON"
-		},
-		{
-			"name" : "Project_SOURCE_DIR",
 			"properties" : 
 			[
 				{
