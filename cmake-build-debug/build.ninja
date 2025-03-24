@@ -503,37 +503,169 @@ build letter_grades.exe: C_EXECUTABLE_LINKER__letter_grades_Debug CMakeFiles/let
   TARGET_PDB = letter_grades.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target alp_dikmen
+# Object build statements for EXECUTABLE target lw3
 
 
 #############################################
-# Order-only phony target for alp_dikmen
+# Order-only phony target for lw3
 
-build cmake_object_order_depends_target_alp_dikmen: phony || .
+build cmake_object_order_depends_target_lw3: phony || .
 
-build CMakeFiles/alp_dikmen.dir/alp_dikmen.c.obj: C_COMPILER__alp_dikmen_unscanned_Debug C$:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/alp_dikmen.c || cmake_object_order_depends_target_alp_dikmen
-  DEP_FILE = CMakeFiles\alp_dikmen.dir\alp_dikmen.c.obj.d
+build CMakeFiles/lw3.dir/lw3.c.obj: C_COMPILER__lw3_unscanned_Debug C$:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/lw3.c || cmake_object_order_depends_target_lw3
+  DEP_FILE = CMakeFiles\lw3.dir\lw3.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\alp_dikmen.dir
-  OBJECT_FILE_DIR = CMakeFiles\alp_dikmen.dir
+  OBJECT_DIR = CMakeFiles\lw3.dir
+  OBJECT_FILE_DIR = CMakeFiles\lw3.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target alp_dikmen
+# Link build statements for EXECUTABLE target lw3
 
 
 #############################################
-# Link the executable alp_dikmen.exe
+# Link the executable lw3.exe
 
-build alp_dikmen.exe: C_EXECUTABLE_LINKER__alp_dikmen_Debug CMakeFiles/alp_dikmen.dir/alp_dikmen.c.obj
+build lw3.exe: C_EXECUTABLE_LINKER__lw3_Debug CMakeFiles/lw3.dir/lw3.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\alp_dikmen.dir
+  OBJECT_DIR = CMakeFiles\lw3.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = alp_dikmen.exe
-  TARGET_IMPLIB = libalp_dikmen.dll.a
-  TARGET_PDB = alp_dikmen.exe.dbg
+  TARGET_FILE = lw3.exe
+  TARGET_IMPLIB = liblw3.dll.a
+  TARGET_PDB = lw3.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target hw1
+
+
+#############################################
+# Order-only phony target for hw1
+
+build cmake_object_order_depends_target_hw1: phony || .
+
+build CMakeFiles/hw1.dir/hw1.c.obj: C_COMPILER__hw1_unscanned_Debug C$:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/hw1.c || cmake_object_order_depends_target_hw1
+  DEP_FILE = CMakeFiles\hw1.dir\hw1.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\hw1.dir
+  OBJECT_FILE_DIR = CMakeFiles\hw1.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target hw1
+
+
+#############################################
+# Link the executable hw1.exe
+
+build hw1.exe: C_EXECUTABLE_LINKER__hw1_Debug CMakeFiles/hw1.dir/hw1.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\hw1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = hw1.exe
+  TARGET_IMPLIB = libhw1.dll.a
+  TARGET_PDB = hw1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target lw3-b
+
+
+#############################################
+# Order-only phony target for lw3-b
+
+build cmake_object_order_depends_target_lw3-b: phony || .
+
+build CMakeFiles/lw3-b.dir/lw3-b.c.obj: C_COMPILER__lw3-b_unscanned_Debug C$:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/lw3-b.c || cmake_object_order_depends_target_lw3-b
+  DEP_FILE = CMakeFiles\lw3-b.dir\lw3-b.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\lw3-b.dir
+  OBJECT_FILE_DIR = CMakeFiles\lw3-b.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lw3-b
+
+
+#############################################
+# Link the executable lw3-b.exe
+
+build lw3-b.exe: C_EXECUTABLE_LINKER__lw3-b_Debug CMakeFiles/lw3-b.dir/lw3-b.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\lw3-b.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = lw3-b.exe
+  TARGET_IMPLIB = liblw3-b.dll.a
+  TARGET_PDB = lw3-b.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target lw3-c
+
+
+#############################################
+# Order-only phony target for lw3-c
+
+build cmake_object_order_depends_target_lw3-c: phony || .
+
+build CMakeFiles/lw3-c.dir/lw3-c.c.obj: C_COMPILER__lw3-c_unscanned_Debug C$:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/lw3-c.c || cmake_object_order_depends_target_lw3-c
+  DEP_FILE = CMakeFiles\lw3-c.dir\lw3-c.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\lw3-c.dir
+  OBJECT_FILE_DIR = CMakeFiles\lw3-c.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lw3-c
+
+
+#############################################
+# Link the executable lw3-c.exe
+
+build lw3-c.exe: C_EXECUTABLE_LINKER__lw3-c_Debug CMakeFiles/lw3-c.dir/lw3-c.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\lw3-c.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = lw3-c.exe
+  TARGET_IMPLIB = liblw3-c.dll.a
+  TARGET_PDB = lw3-c.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target lw3-d
+
+
+#############################################
+# Order-only phony target for lw3-d
+
+build cmake_object_order_depends_target_lw3-d: phony || .
+
+build CMakeFiles/lw3-d.dir/lw3-d.c.obj: C_COMPILER__lw3-d_unscanned_Debug C$:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/lw3-d.c || cmake_object_order_depends_target_lw3-d
+  DEP_FILE = CMakeFiles\lw3-d.dir\lw3-d.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\lw3-d.dir
+  OBJECT_FILE_DIR = CMakeFiles\lw3-d.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lw3-d
+
+
+#############################################
+# Link the executable lw3-d.exe
+
+build lw3-d.exe: C_EXECUTABLE_LINKER__lw3-d_Debug CMakeFiles/lw3-d.dir/lw3-d.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\lw3-d.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = lw3-d.exe
+  TARGET_IMPLIB = liblw3-d.dll.a
+  TARGET_PDB = lw3-d.exe.dbg
 
 
 #############################################
@@ -561,8 +693,6 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build alp_dikmen: phony alp_dikmen.exe
-
 build blank_tab_new_line: phony blank_tab_new_line.exe
 
 build c_to_f: phony c_to_f.exe
@@ -581,9 +711,19 @@ build f_to_c2: phony f_to_c2.exe
 
 build hello_world: phony hello_world.exe
 
+build hw1: phony hw1.exe
+
 build labwork-1-1: phony labwork-1-1.exe
 
 build letter_grades: phony letter_grades.exe
+
+build lw3: phony lw3.exe
+
+build lw3-b: phony lw3-b.exe
+
+build lw3-c: phony lw3-c.exe
+
+build lw3-d: phony lw3-d.exe
 
 build main: phony main.exe
 
@@ -599,7 +739,7 @@ build single_blank: phony single_blank.exe
 #############################################
 # Folder: C:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/cmake-build-debug
 
-build all: phony main.exe hello_world.exe miles_to_km.exe f_to_c.exe c_to_f.exe f_to_c2.exe epp.exe epp2.exe char_counter.exe blank_tab_new_line.exe single_blank.exe capital_small_letter.exe labwork-1-1.exe letter_grades.exe alp_dikmen.exe
+build all: phony main.exe hello_world.exe miles_to_km.exe f_to_c.exe c_to_f.exe f_to_c2.exe epp.exe epp2.exe char_counter.exe blank_tab_new_line.exe single_blank.exe capital_small_letter.exe labwork-1-1.exe letter_grades.exe lw3.exe hw1.exe lw3-b.exe lw3-c.exe lw3-d.exe
 
 # =============================================================================
 # Built-in targets

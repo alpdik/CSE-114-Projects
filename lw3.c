@@ -28,26 +28,28 @@ int factorial_even(int number)
         output=number*output;
         number-=2;
     }
+
     
     return output;
 }
 
 int ave_of_cubes_of_nums_between(int num1, int num2)
 {
-    int sum;
+    int sum,xnum2;
     sum=0;
+    xnum2=num2;
     while(num2>=num1)
     {
         sum+=num2*num2*num2;
         num2-=1;
     }
-    return sum/(num2-num1-1);
+    return sum/(xnum2-num1+1);
 }
 
 int gcd(int num1, int num2)
 {
-    int temp,x;
-    temp=1;
+    int x;
+
     if (num1<num2)
         {
             x=num1;
@@ -76,7 +78,7 @@ int is_perfect_number(int number)
     int dvsr,sum;
     dvsr=1;
     sum=0;
-    
+
     while (dvsr<number)
     {
         if(number%dvsr==0)
@@ -159,6 +161,7 @@ int main()
     else if (uchc=='s')
     {
         int num1,num2;
+        printf("First number must be smaller than the second number.\n");
         printf("Enter the first number: ");
         scanf("%d",&num1);
         printf("Enter the second number: ");
