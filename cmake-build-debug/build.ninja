@@ -54,8 +54,6 @@ build CMakeFiles/main.dir/main.c.obj: C_COMPILER__main_unscanned_Debug C$:/Users
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\main.dir
   OBJECT_FILE_DIR = CMakeFiles\main.dir
-  TARGET_COMPILE_PDB = CMakeFiles\main.dir\
-  TARGET_PDB = main.pdb
 
 
 # =============================================================================
@@ -71,10 +69,9 @@ build main.exe: C_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/main.c.obj
   OBJECT_DIR = CMakeFiles\main.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\main.dir\
   TARGET_FILE = main.exe
   TARGET_IMPLIB = libmain.dll.a
-  TARGET_PDB = main.pdb
+  TARGET_PDB = main.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target hello_world
@@ -90,8 +87,6 @@ build CMakeFiles/hello_world.dir/hello_world.c.obj: C_COMPILER__hello_world_unsc
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\hello_world.dir
   OBJECT_FILE_DIR = CMakeFiles\hello_world.dir
-  TARGET_COMPILE_PDB = CMakeFiles\hello_world.dir\
-  TARGET_PDB = hello_world.pdb
 
 
 # =============================================================================
@@ -107,10 +102,9 @@ build hello_world.exe: C_EXECUTABLE_LINKER__hello_world_Debug CMakeFiles/hello_w
   OBJECT_DIR = CMakeFiles\hello_world.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\hello_world.dir\
   TARGET_FILE = hello_world.exe
   TARGET_IMPLIB = libhello_world.dll.a
-  TARGET_PDB = hello_world.pdb
+  TARGET_PDB = hello_world.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target miles_to_km
@@ -126,8 +120,6 @@ build CMakeFiles/miles_to_km.dir/miles-to-km.c.obj: C_COMPILER__miles_to_km_unsc
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\miles_to_km.dir
   OBJECT_FILE_DIR = CMakeFiles\miles_to_km.dir
-  TARGET_COMPILE_PDB = CMakeFiles\miles_to_km.dir\
-  TARGET_PDB = miles_to_km.pdb
 
 
 # =============================================================================
@@ -143,10 +135,9 @@ build miles_to_km.exe: C_EXECUTABLE_LINKER__miles_to_km_Debug CMakeFiles/miles_t
   OBJECT_DIR = CMakeFiles\miles_to_km.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\miles_to_km.dir\
   TARGET_FILE = miles_to_km.exe
   TARGET_IMPLIB = libmiles_to_km.dll.a
-  TARGET_PDB = miles_to_km.pdb
+  TARGET_PDB = miles_to_km.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target f_to_c
@@ -162,8 +153,6 @@ build CMakeFiles/f_to_c.dir/f_to_c.c.obj: C_COMPILER__f_to_c_unscanned_Debug C$:
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\f_to_c.dir
   OBJECT_FILE_DIR = CMakeFiles\f_to_c.dir
-  TARGET_COMPILE_PDB = CMakeFiles\f_to_c.dir\
-  TARGET_PDB = f_to_c.pdb
 
 
 # =============================================================================
@@ -179,10 +168,9 @@ build f_to_c.exe: C_EXECUTABLE_LINKER__f_to_c_Debug CMakeFiles/f_to_c.dir/f_to_c
   OBJECT_DIR = CMakeFiles\f_to_c.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\f_to_c.dir\
   TARGET_FILE = f_to_c.exe
   TARGET_IMPLIB = libf_to_c.dll.a
-  TARGET_PDB = f_to_c.pdb
+  TARGET_PDB = f_to_c.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target c_to_f
@@ -198,8 +186,6 @@ build CMakeFiles/c_to_f.dir/c_to_f.c.obj: C_COMPILER__c_to_f_unscanned_Debug C$:
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\c_to_f.dir
   OBJECT_FILE_DIR = CMakeFiles\c_to_f.dir
-  TARGET_COMPILE_PDB = CMakeFiles\c_to_f.dir\
-  TARGET_PDB = c_to_f.pdb
 
 
 # =============================================================================
@@ -215,10 +201,9 @@ build c_to_f.exe: C_EXECUTABLE_LINKER__c_to_f_Debug CMakeFiles/c_to_f.dir/c_to_f
   OBJECT_DIR = CMakeFiles\c_to_f.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\c_to_f.dir\
   TARGET_FILE = c_to_f.exe
   TARGET_IMPLIB = libc_to_f.dll.a
-  TARGET_PDB = c_to_f.pdb
+  TARGET_PDB = c_to_f.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target f_to_c2
@@ -234,8 +219,6 @@ build CMakeFiles/f_to_c2.dir/f_to_c2.c.obj: C_COMPILER__f_to_c2_unscanned_Debug 
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\f_to_c2.dir
   OBJECT_FILE_DIR = CMakeFiles\f_to_c2.dir
-  TARGET_COMPILE_PDB = CMakeFiles\f_to_c2.dir\
-  TARGET_PDB = f_to_c2.pdb
 
 
 # =============================================================================
@@ -251,10 +234,9 @@ build f_to_c2.exe: C_EXECUTABLE_LINKER__f_to_c2_Debug CMakeFiles/f_to_c2.dir/f_t
   OBJECT_DIR = CMakeFiles\f_to_c2.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\f_to_c2.dir\
   TARGET_FILE = f_to_c2.exe
   TARGET_IMPLIB = libf_to_c2.dll.a
-  TARGET_PDB = f_to_c2.pdb
+  TARGET_PDB = f_to_c2.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target epp
@@ -270,8 +252,6 @@ build CMakeFiles/epp.dir/EPP.c.obj: C_COMPILER__epp_unscanned_Debug C$:/Users/al
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\epp.dir
   OBJECT_FILE_DIR = CMakeFiles\epp.dir
-  TARGET_COMPILE_PDB = CMakeFiles\epp.dir\
-  TARGET_PDB = epp.pdb
 
 
 # =============================================================================
@@ -287,10 +267,9 @@ build epp.exe: C_EXECUTABLE_LINKER__epp_Debug CMakeFiles/epp.dir/EPP.c.obj
   OBJECT_DIR = CMakeFiles\epp.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\epp.dir\
   TARGET_FILE = epp.exe
   TARGET_IMPLIB = libepp.dll.a
-  TARGET_PDB = epp.pdb
+  TARGET_PDB = epp.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target epp2
@@ -306,8 +285,6 @@ build CMakeFiles/epp2.dir/epp2.c.obj: C_COMPILER__epp2_unscanned_Debug C$:/Users
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\epp2.dir
   OBJECT_FILE_DIR = CMakeFiles\epp2.dir
-  TARGET_COMPILE_PDB = CMakeFiles\epp2.dir\
-  TARGET_PDB = epp2.pdb
 
 
 # =============================================================================
@@ -323,10 +300,9 @@ build epp2.exe: C_EXECUTABLE_LINKER__epp2_Debug CMakeFiles/epp2.dir/epp2.c.obj
   OBJECT_DIR = CMakeFiles\epp2.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\epp2.dir\
   TARGET_FILE = epp2.exe
   TARGET_IMPLIB = libepp2.dll.a
-  TARGET_PDB = epp2.pdb
+  TARGET_PDB = epp2.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target char_counter
@@ -342,8 +318,6 @@ build CMakeFiles/char_counter.dir/char_counter.c.obj: C_COMPILER__char_counter_u
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\char_counter.dir
   OBJECT_FILE_DIR = CMakeFiles\char_counter.dir
-  TARGET_COMPILE_PDB = CMakeFiles\char_counter.dir\
-  TARGET_PDB = char_counter.pdb
 
 
 # =============================================================================
@@ -359,10 +333,9 @@ build char_counter.exe: C_EXECUTABLE_LINKER__char_counter_Debug CMakeFiles/char_
   OBJECT_DIR = CMakeFiles\char_counter.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\char_counter.dir\
   TARGET_FILE = char_counter.exe
   TARGET_IMPLIB = libchar_counter.dll.a
-  TARGET_PDB = char_counter.pdb
+  TARGET_PDB = char_counter.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target blank_tab_new_line
@@ -378,8 +351,6 @@ build CMakeFiles/blank_tab_new_line.dir/blank_tab_new_line.c.obj: C_COMPILER__bl
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\blank_tab_new_line.dir
   OBJECT_FILE_DIR = CMakeFiles\blank_tab_new_line.dir
-  TARGET_COMPILE_PDB = CMakeFiles\blank_tab_new_line.dir\
-  TARGET_PDB = blank_tab_new_line.pdb
 
 
 # =============================================================================
@@ -395,10 +366,9 @@ build blank_tab_new_line.exe: C_EXECUTABLE_LINKER__blank_tab_new_line_Debug CMak
   OBJECT_DIR = CMakeFiles\blank_tab_new_line.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\blank_tab_new_line.dir\
   TARGET_FILE = blank_tab_new_line.exe
   TARGET_IMPLIB = libblank_tab_new_line.dll.a
-  TARGET_PDB = blank_tab_new_line.pdb
+  TARGET_PDB = blank_tab_new_line.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target single_blank
@@ -414,8 +384,6 @@ build CMakeFiles/single_blank.dir/single_blank.c.obj: C_COMPILER__single_blank_u
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\single_blank.dir
   OBJECT_FILE_DIR = CMakeFiles\single_blank.dir
-  TARGET_COMPILE_PDB = CMakeFiles\single_blank.dir\
-  TARGET_PDB = single_blank.pdb
 
 
 # =============================================================================
@@ -431,10 +399,9 @@ build single_blank.exe: C_EXECUTABLE_LINKER__single_blank_Debug CMakeFiles/singl
   OBJECT_DIR = CMakeFiles\single_blank.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\single_blank.dir\
   TARGET_FILE = single_blank.exe
   TARGET_IMPLIB = libsingle_blank.dll.a
-  TARGET_PDB = single_blank.pdb
+  TARGET_PDB = single_blank.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target capital_small_letter
@@ -450,8 +417,6 @@ build CMakeFiles/capital_small_letter.dir/capital_small_letter.c.obj: C_COMPILER
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\capital_small_letter.dir
   OBJECT_FILE_DIR = CMakeFiles\capital_small_letter.dir
-  TARGET_COMPILE_PDB = CMakeFiles\capital_small_letter.dir\
-  TARGET_PDB = capital_small_letter.pdb
 
 
 # =============================================================================
@@ -467,10 +432,9 @@ build capital_small_letter.exe: C_EXECUTABLE_LINKER__capital_small_letter_Debug 
   OBJECT_DIR = CMakeFiles\capital_small_letter.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\capital_small_letter.dir\
   TARGET_FILE = capital_small_letter.exe
   TARGET_IMPLIB = libcapital_small_letter.dll.a
-  TARGET_PDB = capital_small_letter.pdb
+  TARGET_PDB = capital_small_letter.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target labwork-1-1
@@ -486,8 +450,6 @@ build CMakeFiles/labwork-1-1.dir/labwork-1-1.c.obj: C_COMPILER__labwork-1-1_unsc
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\labwork-1-1.dir
   OBJECT_FILE_DIR = CMakeFiles\labwork-1-1.dir
-  TARGET_COMPILE_PDB = CMakeFiles\labwork-1-1.dir\
-  TARGET_PDB = labwork-1-1.pdb
 
 
 # =============================================================================
@@ -503,10 +465,9 @@ build labwork-1-1.exe: C_EXECUTABLE_LINKER__labwork-1-1_Debug CMakeFiles/labwork
   OBJECT_DIR = CMakeFiles\labwork-1-1.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\labwork-1-1.dir\
   TARGET_FILE = labwork-1-1.exe
   TARGET_IMPLIB = liblabwork-1-1.dll.a
-  TARGET_PDB = labwork-1-1.pdb
+  TARGET_PDB = labwork-1-1.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target letter_grades
@@ -522,8 +483,6 @@ build CMakeFiles/letter_grades.dir/letter_grades.c.obj: C_COMPILER__letter_grade
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\letter_grades.dir
   OBJECT_FILE_DIR = CMakeFiles\letter_grades.dir
-  TARGET_COMPILE_PDB = CMakeFiles\letter_grades.dir\
-  TARGET_PDB = letter_grades.pdb
 
 
 # =============================================================================
@@ -539,10 +498,9 @@ build letter_grades.exe: C_EXECUTABLE_LINKER__letter_grades_Debug CMakeFiles/let
   OBJECT_DIR = CMakeFiles\letter_grades.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\letter_grades.dir\
   TARGET_FILE = letter_grades.exe
   TARGET_IMPLIB = libletter_grades.dll.a
-  TARGET_PDB = letter_grades.pdb
+  TARGET_PDB = letter_grades.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target lw3
@@ -558,8 +516,6 @@ build CMakeFiles/lw3.dir/lw3.c.obj: C_COMPILER__lw3_unscanned_Debug C$:/Users/al
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\lw3.dir
   OBJECT_FILE_DIR = CMakeFiles\lw3.dir
-  TARGET_COMPILE_PDB = CMakeFiles\lw3.dir\
-  TARGET_PDB = lw3.pdb
 
 
 # =============================================================================
@@ -575,10 +531,9 @@ build lw3.exe: C_EXECUTABLE_LINKER__lw3_Debug CMakeFiles/lw3.dir/lw3.c.obj
   OBJECT_DIR = CMakeFiles\lw3.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\lw3.dir\
   TARGET_FILE = lw3.exe
   TARGET_IMPLIB = liblw3.dll.a
-  TARGET_PDB = lw3.pdb
+  TARGET_PDB = lw3.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target hw1
@@ -594,8 +549,6 @@ build CMakeFiles/hw1.dir/hw1.c.obj: C_COMPILER__hw1_unscanned_Debug C$:/Users/al
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\hw1.dir
   OBJECT_FILE_DIR = CMakeFiles\hw1.dir
-  TARGET_COMPILE_PDB = CMakeFiles\hw1.dir\
-  TARGET_PDB = hw1.pdb
 
 
 # =============================================================================
@@ -611,10 +564,9 @@ build hw1.exe: C_EXECUTABLE_LINKER__hw1_Debug CMakeFiles/hw1.dir/hw1.c.obj
   OBJECT_DIR = CMakeFiles\hw1.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\hw1.dir\
   TARGET_FILE = hw1.exe
   TARGET_IMPLIB = libhw1.dll.a
-  TARGET_PDB = hw1.pdb
+  TARGET_PDB = hw1.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target lw3-b
@@ -630,8 +582,6 @@ build CMakeFiles/lw3-b.dir/lw3-b.c.obj: C_COMPILER__lw3-b_unscanned_Debug C$:/Us
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\lw3-b.dir
   OBJECT_FILE_DIR = CMakeFiles\lw3-b.dir
-  TARGET_COMPILE_PDB = CMakeFiles\lw3-b.dir\
-  TARGET_PDB = lw3-b.pdb
 
 
 # =============================================================================
@@ -647,10 +597,9 @@ build lw3-b.exe: C_EXECUTABLE_LINKER__lw3-b_Debug CMakeFiles/lw3-b.dir/lw3-b.c.o
   OBJECT_DIR = CMakeFiles\lw3-b.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\lw3-b.dir\
   TARGET_FILE = lw3-b.exe
   TARGET_IMPLIB = liblw3-b.dll.a
-  TARGET_PDB = lw3-b.pdb
+  TARGET_PDB = lw3-b.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target lw3-c
@@ -666,8 +615,6 @@ build CMakeFiles/lw3-c.dir/lw3-c.c.obj: C_COMPILER__lw3-c_unscanned_Debug C$:/Us
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\lw3-c.dir
   OBJECT_FILE_DIR = CMakeFiles\lw3-c.dir
-  TARGET_COMPILE_PDB = CMakeFiles\lw3-c.dir\
-  TARGET_PDB = lw3-c.pdb
 
 
 # =============================================================================
@@ -683,10 +630,9 @@ build lw3-c.exe: C_EXECUTABLE_LINKER__lw3-c_Debug CMakeFiles/lw3-c.dir/lw3-c.c.o
   OBJECT_DIR = CMakeFiles\lw3-c.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\lw3-c.dir\
   TARGET_FILE = lw3-c.exe
   TARGET_IMPLIB = liblw3-c.dll.a
-  TARGET_PDB = lw3-c.pdb
+  TARGET_PDB = lw3-c.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target lw3-d
@@ -702,8 +648,6 @@ build CMakeFiles/lw3-d.dir/lw3-d.c.obj: C_COMPILER__lw3-d_unscanned_Debug C$:/Us
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\lw3-d.dir
   OBJECT_FILE_DIR = CMakeFiles\lw3-d.dir
-  TARGET_COMPILE_PDB = CMakeFiles\lw3-d.dir\
-  TARGET_PDB = lw3-d.pdb
 
 
 # =============================================================================
@@ -719,10 +663,42 @@ build lw3-d.exe: C_EXECUTABLE_LINKER__lw3-d_Debug CMakeFiles/lw3-d.dir/lw3-d.c.o
   OBJECT_DIR = CMakeFiles\lw3-d.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\lw3-d.dir\
   TARGET_FILE = lw3-d.exe
   TARGET_IMPLIB = liblw3-d.dll.a
-  TARGET_PDB = lw3-d.pdb
+  TARGET_PDB = lw3-d.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target lw4
+
+
+#############################################
+# Order-only phony target for lw4
+
+build cmake_object_order_depends_target_lw4: phony || .
+
+build CMakeFiles/lw4.dir/lw4.c.obj: C_COMPILER__lw4_unscanned_Debug C$:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/lw4.c || cmake_object_order_depends_target_lw4
+  DEP_FILE = CMakeFiles\lw4.dir\lw4.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\lw4.dir
+  OBJECT_FILE_DIR = CMakeFiles\lw4.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lw4
+
+
+#############################################
+# Link the executable lw4.exe
+
+build lw4.exe: C_EXECUTABLE_LINKER__lw4_Debug CMakeFiles/lw4.dir/lw4.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\lw4.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = lw4.exe
+  TARGET_IMPLIB = liblw4.dll.a
+  TARGET_PDB = lw4.exe.dbg
 
 
 #############################################
@@ -782,6 +758,8 @@ build lw3-c: phony lw3-c.exe
 
 build lw3-d: phony lw3-d.exe
 
+build lw4: phony lw4.exe
+
 build main: phony main.exe
 
 build miles_to_km: phony miles_to_km.exe
@@ -796,7 +774,7 @@ build single_blank: phony single_blank.exe
 #############################################
 # Folder: C:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/cmake-build-debug
 
-build all: phony main.exe hello_world.exe miles_to_km.exe f_to_c.exe c_to_f.exe f_to_c2.exe epp.exe epp2.exe char_counter.exe blank_tab_new_line.exe single_blank.exe capital_small_letter.exe labwork-1-1.exe letter_grades.exe lw3.exe hw1.exe lw3-b.exe lw3-c.exe lw3-d.exe
+build all: phony main.exe hello_world.exe miles_to_km.exe f_to_c.exe c_to_f.exe f_to_c2.exe epp.exe epp2.exe char_counter.exe blank_tab_new_line.exe single_blank.exe capital_small_letter.exe labwork-1-1.exe letter_grades.exe lw3.exe hw1.exe lw3-b.exe lw3-c.exe lw3-d.exe lw4.exe
 
 # =============================================================================
 # Built-in targets
@@ -805,14 +783,14 @@ build all: phony main.exe hello_world.exe miles_to_km.exe f_to_c.exe c_to_f.exe 
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCCompiler.cmake.in C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCCompilerABI.c C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCompilerIdDetection.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerSupport.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineRCCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeFindBinUtils.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeParseLibraryArchitecture.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCCompiler.cmake.in C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystem.cmake.in C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCompilerCommon.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestRCCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/FeatureTesting.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake C$:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake C$:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCCompiler.cmake.in C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCCompilerABI.c C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCompilerIdDetection.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerSupport.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineRCCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeFindBinUtils.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeParseLibraryArchitecture.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCCompiler.cmake.in C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystem.cmake.in C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCompilerCommon.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestRCCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/FeatureTesting.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake C$:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake: phony
+build C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/Users/alpdi/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake C$:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake: phony
 
 
 #############################################

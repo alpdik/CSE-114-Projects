@@ -17,5 +17,6 @@ C:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/cmake-build-debug/CMake
 C:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/cmake-build-debug/CMakeFiles/lw3-b.dir
 C:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/cmake-build-debug/CMakeFiles/lw3-c.dir
 C:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/cmake-build-debug/CMakeFiles/lw3-d.dir
+C:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/cmake-build-debug/CMakeFiles/lw4.dir
 C:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/cmake-build-debug/CMakeFiles/rebuild_cache.dir
