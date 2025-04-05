@@ -700,6 +700,39 @@ build lw4.exe: C_EXECUTABLE_LINKER__lw4_Debug CMakeFiles/lw4.dir/lw4.c.obj
   TARGET_IMPLIB = liblw4.dll.a
   TARGET_PDB = lw4.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target hw2
+
+
+#############################################
+# Order-only phony target for hw2
+
+build cmake_object_order_depends_target_hw2: phony || .
+
+build CMakeFiles/hw2.dir/hw2.c.obj: C_COMPILER__hw2_unscanned_Debug C$:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/hw2.c || cmake_object_order_depends_target_hw2
+  DEP_FILE = CMakeFiles\hw2.dir\hw2.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\hw2.dir
+  OBJECT_FILE_DIR = CMakeFiles\hw2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target hw2
+
+
+#############################################
+# Link the executable hw2.exe
+
+build hw2.exe: C_EXECUTABLE_LINKER__hw2_Debug CMakeFiles/hw2.dir/hw2.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\hw2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = hw2.exe
+  TARGET_IMPLIB = libhw2.dll.a
+  TARGET_PDB = hw2.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -746,6 +779,8 @@ build hello_world: phony hello_world.exe
 
 build hw1: phony hw1.exe
 
+build hw2: phony hw2.exe
+
 build labwork-1-1: phony labwork-1-1.exe
 
 build letter_grades: phony letter_grades.exe
@@ -774,7 +809,7 @@ build single_blank: phony single_blank.exe
 #############################################
 # Folder: C:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/cmake-build-debug
 
-build all: phony main.exe hello_world.exe miles_to_km.exe f_to_c.exe c_to_f.exe f_to_c2.exe epp.exe epp2.exe char_counter.exe blank_tab_new_line.exe single_blank.exe capital_small_letter.exe labwork-1-1.exe letter_grades.exe lw3.exe hw1.exe lw3-b.exe lw3-c.exe lw3-d.exe lw4.exe
+build all: phony main.exe hello_world.exe miles_to_km.exe f_to_c.exe c_to_f.exe f_to_c2.exe epp.exe epp2.exe char_counter.exe blank_tab_new_line.exe single_blank.exe capital_small_letter.exe labwork-1-1.exe letter_grades.exe lw3.exe hw1.exe lw3-b.exe lw3-c.exe lw3-d.exe lw4.exe hw2.exe
 
 # =============================================================================
 # Built-in targets
