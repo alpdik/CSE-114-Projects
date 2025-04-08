@@ -35,7 +35,8 @@
 						17,
 						18,
 						19,
-						20
+						20,
+						21
 					]
 				}
 			],
@@ -70,12 +71,20 @@
 						17,
 						18,
 						19,
-						20
+						20,
+						21
 					]
 				}
 			],
 			"targets" : 
 			[
+				{
+					"directoryIndex" : 0,
+					"id" : "arrays_in_class::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arrays_in_class-Debug-0376009eabb846cc88cc.json",
+					"name" : "arrays_in_class",
+					"projectIndex" : 0
+				},
 				{
 					"directoryIndex" : 0,
 					"id" : "blank_tab_new_line::@6890427a1f51a3e7e1df",

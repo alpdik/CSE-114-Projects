@@ -733,6 +733,39 @@ build hw2.exe: C_EXECUTABLE_LINKER__hw2_Debug CMakeFiles/hw2.dir/hw2.c.obj
   TARGET_IMPLIB = libhw2.dll.a
   TARGET_PDB = hw2.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target arrays_in_class
+
+
+#############################################
+# Order-only phony target for arrays_in_class
+
+build cmake_object_order_depends_target_arrays_in_class: phony || .
+
+build CMakeFiles/arrays_in_class.dir/arrays_in_class.c.obj: C_COMPILER__arrays_in_class_unscanned_Debug C$:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/arrays_in_class.c || cmake_object_order_depends_target_arrays_in_class
+  DEP_FILE = CMakeFiles\arrays_in_class.dir\arrays_in_class.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\arrays_in_class.dir
+  OBJECT_FILE_DIR = CMakeFiles\arrays_in_class.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target arrays_in_class
+
+
+#############################################
+# Link the executable arrays_in_class.exe
+
+build arrays_in_class.exe: C_EXECUTABLE_LINKER__arrays_in_class_Debug CMakeFiles/arrays_in_class.dir/arrays_in_class.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\arrays_in_class.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = arrays_in_class.exe
+  TARGET_IMPLIB = libarrays_in_class.dll.a
+  TARGET_PDB = arrays_in_class.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -758,6 +791,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Target aliases.
+
+build arrays_in_class: phony arrays_in_class.exe
 
 build blank_tab_new_line: phony blank_tab_new_line.exe
 
@@ -809,7 +844,7 @@ build single_blank: phony single_blank.exe
 #############################################
 # Folder: C:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/cmake-build-debug
 
-build all: phony main.exe hello_world.exe miles_to_km.exe f_to_c.exe c_to_f.exe f_to_c2.exe epp.exe epp2.exe char_counter.exe blank_tab_new_line.exe single_blank.exe capital_small_letter.exe labwork-1-1.exe letter_grades.exe lw3.exe hw1.exe lw3-b.exe lw3-c.exe lw3-d.exe lw4.exe hw2.exe
+build all: phony main.exe hello_world.exe miles_to_km.exe f_to_c.exe c_to_f.exe f_to_c2.exe epp.exe epp2.exe char_counter.exe blank_tab_new_line.exe single_blank.exe capital_small_letter.exe labwork-1-1.exe letter_grades.exe lw3.exe hw1.exe lw3-b.exe lw3-c.exe lw3-d.exe lw4.exe hw2.exe arrays_in_class.exe
 
 # =============================================================================
 # Built-in targets
