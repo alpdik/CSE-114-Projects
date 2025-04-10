@@ -766,6 +766,39 @@ build arrays_in_class.exe: C_EXECUTABLE_LINKER__arrays_in_class_Debug CMakeFiles
   TARGET_IMPLIB = libarrays_in_class.dll.a
   TARGET_PDB = arrays_in_class.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target in_class_apr_8
+
+
+#############################################
+# Order-only phony target for in_class_apr_8
+
+build cmake_object_order_depends_target_in_class_apr_8: phony || .
+
+build CMakeFiles/in_class_apr_8.dir/in_class_apr_8.c.obj: C_COMPILER__in_class_apr_8_unscanned_Debug C$:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/in_class_apr_8.c || cmake_object_order_depends_target_in_class_apr_8
+  DEP_FILE = CMakeFiles\in_class_apr_8.dir\in_class_apr_8.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\in_class_apr_8.dir
+  OBJECT_FILE_DIR = CMakeFiles\in_class_apr_8.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target in_class_apr_8
+
+
+#############################################
+# Link the executable in_class_apr_8.exe
+
+build in_class_apr_8.exe: C_EXECUTABLE_LINKER__in_class_apr_8_Debug CMakeFiles/in_class_apr_8.dir/in_class_apr_8.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\in_class_apr_8.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = in_class_apr_8.exe
+  TARGET_IMPLIB = libin_class_apr_8.dll.a
+  TARGET_PDB = in_class_apr_8.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -816,6 +849,8 @@ build hw1: phony hw1.exe
 
 build hw2: phony hw2.exe
 
+build in_class_apr_8: phony in_class_apr_8.exe
+
 build labwork-1-1: phony labwork-1-1.exe
 
 build letter_grades: phony letter_grades.exe
@@ -844,7 +879,7 @@ build single_blank: phony single_blank.exe
 #############################################
 # Folder: C:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/cmake-build-debug
 
-build all: phony main.exe hello_world.exe miles_to_km.exe f_to_c.exe c_to_f.exe f_to_c2.exe epp.exe epp2.exe char_counter.exe blank_tab_new_line.exe single_blank.exe capital_small_letter.exe labwork-1-1.exe letter_grades.exe lw3.exe hw1.exe lw3-b.exe lw3-c.exe lw3-d.exe lw4.exe hw2.exe arrays_in_class.exe
+build all: phony main.exe hello_world.exe miles_to_km.exe f_to_c.exe c_to_f.exe f_to_c2.exe epp.exe epp2.exe char_counter.exe blank_tab_new_line.exe single_blank.exe capital_small_letter.exe labwork-1-1.exe letter_grades.exe lw3.exe hw1.exe lw3-b.exe lw3-c.exe lw3-d.exe lw4.exe hw2.exe arrays_in_class.exe in_class_apr_8.exe
 
 # =============================================================================
 # Built-in targets
