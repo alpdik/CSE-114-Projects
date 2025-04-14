@@ -52,6 +52,7 @@ int gcd(int num1, int num2)
     if (num1<num2)
         {
             x=num1;
+
         }
     else
         {
