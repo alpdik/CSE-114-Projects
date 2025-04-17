@@ -23,5 +23,8 @@ add_executable(lw3-d lw3-d.c)
 add_executable(lw4 lw4.c)
 add_executable(hw2 hw2.c)
 add_executable(arrays_in_class arrays_in_class.c)
+
 add_executable(in_class_apr_8 in_class_apr_8.c)
 add_executable(in_class_apr_14 in_class_apr_14.c)
+add_executable(how_many_times how_many_times.c)
+add_executable(lists_in_lists lists_in_lists.c)

@@ -832,6 +832,72 @@ build in_class_apr_14.exe: C_EXECUTABLE_LINKER__in_class_apr_14_Debug CMakeFiles
   TARGET_IMPLIB = libin_class_apr_14.dll.a
   TARGET_PDB = in_class_apr_14.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target how_many_times
+
+
+#############################################
+# Order-only phony target for how_many_times
+
+build cmake_object_order_depends_target_how_many_times: phony || .
+
+build CMakeFiles/how_many_times.dir/how_many_times.c.obj: C_COMPILER__how_many_times_unscanned_Debug C$:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/how_many_times.c || cmake_object_order_depends_target_how_many_times
+  DEP_FILE = CMakeFiles\how_many_times.dir\how_many_times.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\how_many_times.dir
+  OBJECT_FILE_DIR = CMakeFiles\how_many_times.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target how_many_times
+
+
+#############################################
+# Link the executable how_many_times.exe
+
+build how_many_times.exe: C_EXECUTABLE_LINKER__how_many_times_Debug CMakeFiles/how_many_times.dir/how_many_times.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\how_many_times.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = how_many_times.exe
+  TARGET_IMPLIB = libhow_many_times.dll.a
+  TARGET_PDB = how_many_times.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target lists_in_lists
+
+
+#############################################
+# Order-only phony target for lists_in_lists
+
+build cmake_object_order_depends_target_lists_in_lists: phony || .
+
+build CMakeFiles/lists_in_lists.dir/lists_in_lists.c.obj: C_COMPILER__lists_in_lists_unscanned_Debug C$:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/lists_in_lists.c || cmake_object_order_depends_target_lists_in_lists
+  DEP_FILE = CMakeFiles\lists_in_lists.dir\lists_in_lists.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\lists_in_lists.dir
+  OBJECT_FILE_DIR = CMakeFiles\lists_in_lists.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lists_in_lists
+
+
+#############################################
+# Link the executable lists_in_lists.exe
+
+build lists_in_lists.exe: C_EXECUTABLE_LINKER__lists_in_lists_Debug CMakeFiles/lists_in_lists.dir/lists_in_lists.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\lists_in_lists.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = lists_in_lists.exe
+  TARGET_IMPLIB = liblists_in_lists.dll.a
+  TARGET_PDB = lists_in_lists.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -878,6 +944,8 @@ build f_to_c2: phony f_to_c2.exe
 
 build hello_world: phony hello_world.exe
 
+build how_many_times: phony how_many_times.exe
+
 build hw1: phony hw1.exe
 
 build hw2: phony hw2.exe
@@ -889,6 +957,8 @@ build in_class_apr_8: phony in_class_apr_8.exe
 build labwork-1-1: phony labwork-1-1.exe
 
 build letter_grades: phony letter_grades.exe
+
+build lists_in_lists: phony lists_in_lists.exe
 
 build lw3: phony lw3.exe
 
@@ -914,7 +984,7 @@ build single_blank: phony single_blank.exe
 #############################################
 # Folder: C:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/cmake-build-debug
 
-build all: phony main.exe hello_world.exe miles_to_km.exe f_to_c.exe c_to_f.exe f_to_c2.exe epp.exe epp2.exe char_counter.exe blank_tab_new_line.exe single_blank.exe capital_small_letter.exe labwork-1-1.exe letter_grades.exe lw3.exe hw1.exe lw3-b.exe lw3-c.exe lw3-d.exe lw4.exe hw2.exe arrays_in_class.exe in_class_apr_8.exe in_class_apr_14.exe
+build all: phony main.exe hello_world.exe miles_to_km.exe f_to_c.exe c_to_f.exe f_to_c2.exe epp.exe epp2.exe char_counter.exe blank_tab_new_line.exe single_blank.exe capital_small_letter.exe labwork-1-1.exe letter_grades.exe lw3.exe hw1.exe lw3-b.exe lw3-c.exe lw3-d.exe lw4.exe hw2.exe arrays_in_class.exe in_class_apr_8.exe in_class_apr_14.exe how_many_times.exe lists_in_lists.exe
 
 # =============================================================================
 # Built-in targets
