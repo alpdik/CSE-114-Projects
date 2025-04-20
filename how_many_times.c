@@ -29,7 +29,7 @@ int count_with_first( const int A[], int size, int n ){
 
 int main(){
     int A[ SIZE ] = { 2, 2, 27, 2, 7, 1 };
-    int n = 0;
+    int n = 2;
     printf( "%d appears %d time(s) in A \n", n, count_with_first( A, SIZE, n ) );
 
 }

@@ -16,12 +16,11 @@ int index_of_last( const int A[], int size, int n ){
 }
 
 int count_new( const int A[], int size, int n ){
-    int count = 0, index;
+    int count = 1, index;
 
-    index = index_of_last( A, size, n );
+    index = size;
 
-    while( index != -1 ){
-        count++;
+    for( count;index != -1;count++ ){
         index = index_of_last( A, index, n );
     }
     return count;
