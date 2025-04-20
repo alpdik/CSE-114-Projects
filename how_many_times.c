@@ -15,21 +15,21 @@ int index_of_first( const int A[], int size, int n, int start ){
     return -1;
 }
 
-int count_new( const int A[], int size, int n ){
+int count_with_first( const int A[], int size, int n ){
     int count = 0, index;
 
     index = index_of_first( A, size, n, 0 );
 
     while( index != -1 ){
         count++;
-        index = index_of_first( A, SIZE-index, n, index + 1 );
+        index = index_of_first( A, size-index, n, index + 1 );
     }
     return count;
 }
 
 int main(){
     int A[ SIZE ] = { 2, 2, 27, 2, 7, 1 };
-    int n = 27;
-    printf( "%d appears %d time(s) in A?\n", n, count_new( A, SIZE, n ) );
+    int n = 0;
+    printf( "%d appears %d time(s) in A \n", n, count_with_first( A, SIZE, n ) );
 
 }

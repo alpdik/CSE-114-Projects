@@ -24,5 +24,6 @@ C:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/cmake-build-debug/CMake
 C:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/cmake-build-debug/CMakeFiles/in_class_apr_14.dir
 C:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/cmake-build-debug/CMakeFiles/how_many_times.dir
 C:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/cmake-build-debug/CMakeFiles/lists_in_lists.dir
+C:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/cmake-build-debug/CMakeFiles/hw4.dir
 C:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/cmake-build-debug/CMakeFiles/rebuild_cache.dir

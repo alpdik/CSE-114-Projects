@@ -15,8 +15,8 @@ int main() {
 
     int i;
 
-    int Exams[ 3 ][ 5 ] = { {50,60},{100,100},{80,90} };
-    double Average[ 5 ];
+    int Exams[ 3 ][ 2 ] = { {50,60},{100,100},{80,90} };
+    double Average[ 2 ];
 
     for( i = 0; i < 2; i++ ){ // for each of the 5 students
         Average[ i ] = Exams[ 0 ][ i ] *0.3 + Exams[ 1 ][ i ]*0.3 + Exams[ 2 ][ i ]*0.4;
