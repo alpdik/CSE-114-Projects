@@ -26,5 +26,7 @@ C:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/cmake-build-debug/CMake
 C:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/cmake-build-debug/CMakeFiles/lists_in_lists.dir
 C:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/cmake-build-debug/CMakeFiles/hw4.dir
 C:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/cmake-build-debug/CMakeFiles/hw5.dir
+C:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/cmake-build-debug/CMakeFiles/apr5.dir
+C:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/cmake-build-debug/CMakeFiles/hw6.dir
 C:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/cmake-build-debug/CMakeFiles/rebuild_cache.dir
