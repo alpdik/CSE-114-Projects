@@ -6,7 +6,8 @@
 #include <stdio.h>
 #define SIZE 6
 
-int index_of_last( const int A[], int size, int n ){
+int last_index(int A[], int size, int n)
+{
     for( int i = size-1; i >= 0; i-- ){
         if( A[ i ] == n ){
             return i;
@@ -15,13 +16,25 @@ int index_of_last( const int A[], int size, int n ){
     return -1;
 }
 
+int first_index(int A[], int size, int n) {
+    for( int i=0; i < size; i++ ){
+        if( A[ i ] == n ){
+            return i;
+        }
+    }
+    return -1;
+}
+
+
 int count_new( const int A[], int size, int n ){
-    int count = 1, index;
+    int count = 0, index;
+    index = last_index( A, size, n );
 
-    index = size;
 
-    for( count;index != -1;count++ ){
-        index = index_of_last( A, index, n );
+    while( index != -1 ){
+        count++;
+        index = last_index( A, index, n );
+
     }
     return count;
 }
