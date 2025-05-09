@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define SIZE 5
+#define SIZE 6
 
 int *start(int *first, int size) {
     for (int i = 0; i < size; i++) {
@@ -26,9 +26,9 @@ void print_reverse(int *p, int *q) {
 }
 
 int main() {
-    int A[SIZE] = {1, 0, 0, 1, 1};
+    int A[SIZE] = {1, 0, 0, 0, 1, 1};
     int *first = A;
-    int *last = A + SIZE - 1;
+    int *last = first + SIZE - 1;
 
     print_reverse(first, last);
 
