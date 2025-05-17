@@ -41,39 +41,6 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target main
-
-
-#############################################
-# Order-only phony target for main
-
-build cmake_object_order_depends_target_main: phony || .
-
-build CMakeFiles/main.dir/main.c.obj: C_COMPILER__main_unscanned_Debug C$:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/main.c || cmake_object_order_depends_target_main
-  DEP_FILE = CMakeFiles\main.dir\main.c.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\main.dir
-  OBJECT_FILE_DIR = CMakeFiles\main.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target main
-
-
-#############################################
-# Link the executable main.exe
-
-build main.exe: C_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/main.c.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\main.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = main.exe
-  TARGET_IMPLIB = libmain.dll.a
-  TARGET_PDB = main.exe.dbg
-
-# =============================================================================
 # Object build statements for EXECUTABLE target hello_world
 
 
@@ -1063,6 +1030,39 @@ build thursday_lw6.exe: C_EXECUTABLE_LINKER__thursday_lw6_Debug CMakeFiles/thurs
   TARGET_IMPLIB = libthursday_lw6.dll.a
   TARGET_PDB = thursday_lw6.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target lw7
+
+
+#############################################
+# Order-only phony target for lw7
+
+build cmake_object_order_depends_target_lw7: phony || .
+
+build CMakeFiles/lw7.dir/lw7.c.obj: C_COMPILER__lw7_unscanned_Debug C$:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/lw7.c || cmake_object_order_depends_target_lw7
+  DEP_FILE = CMakeFiles\lw7.dir\lw7.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\lw7.dir
+  OBJECT_FILE_DIR = CMakeFiles\lw7.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lw7
+
+
+#############################################
+# Link the executable lw7.exe
+
+build lw7.exe: C_EXECUTABLE_LINKER__lw7_Debug CMakeFiles/lw7.dir/lw7.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\lw7.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = lw7.exe
+  TARGET_IMPLIB = liblw7.dll.a
+  TARGET_PDB = lw7.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1143,7 +1143,7 @@ build lw3-d: phony lw3-d.exe
 
 build lw4: phony lw4.exe
 
-build main: phony main.exe
+build lw7: phony lw7.exe
 
 build miles_to_km: phony miles_to_km.exe
 
@@ -1159,7 +1159,7 @@ build thursday_lw6: phony thursday_lw6.exe
 #############################################
 # Folder: C:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/cmake-build-debug
 
-build all: phony main.exe hello_world.exe miles_to_km.exe f_to_c.exe c_to_f.exe f_to_c2.exe epp.exe epp2.exe char_counter.exe blank_tab_new_line.exe single_blank.exe capital_small_letter.exe labwork-1-1.exe letter_grades.exe lw3.exe hw1.exe lw3-b.exe lw3-c.exe lw3-d.exe lw4.exe hw2.exe arrays_in_class.exe in_class_apr_8.exe in_class_apr_14.exe how_many_times.exe lists_in_lists.exe hw4.exe hw5.exe apr5.exe hw6.exe thursday_lw6.exe
+build all: phony hello_world.exe miles_to_km.exe f_to_c.exe c_to_f.exe f_to_c2.exe epp.exe epp2.exe char_counter.exe blank_tab_new_line.exe single_blank.exe capital_small_letter.exe labwork-1-1.exe letter_grades.exe lw3.exe hw1.exe lw3-b.exe lw3-c.exe lw3-d.exe lw4.exe hw2.exe arrays_in_class.exe in_class_apr_8.exe in_class_apr_14.exe how_many_times.exe lists_in_lists.exe hw4.exe hw5.exe apr5.exe hw6.exe thursday_lw6.exe lw7.exe
 
 # =============================================================================
 # Built-in targets
