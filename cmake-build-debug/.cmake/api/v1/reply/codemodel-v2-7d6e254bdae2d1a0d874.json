@@ -44,7 +44,8 @@
 						26,
 						27,
 						28,
-						29
+						29,
+						30
 					]
 				}
 			],
@@ -88,7 +89,8 @@
 						26,
 						27,
 						28,
-						29
+						29,
+						30
 					]
 				}
 			],
@@ -302,6 +304,13 @@
 					"id" : "single_blank::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-single_blank-Debug-b9696d398110f06ef3a0.json",
 					"name" : "single_blank",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "thursday_lw6::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-thursday_lw6-Debug-42fd17ce42fc3f096754.json",
+					"name" : "thursday_lw6",
 					"projectIndex" : 0
 				}
 			]

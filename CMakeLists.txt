@@ -31,3 +31,6 @@ add_executable(hw4 hw4.c)
 add_executable(hw5 hw5.c)
 add_executable(apr5 apr5.c)
 add_executable(hw6 hw6.c)
+add_executable(thursday_lw6 thursday_lw6.c)
+add_executable(lw7 lw7.c)
+

@@ -1030,6 +1030,39 @@ build hw6.exe: C_EXECUTABLE_LINKER__hw6_Debug CMakeFiles/hw6.dir/hw6.c.obj
   TARGET_IMPLIB = libhw6.dll.a
   TARGET_PDB = hw6.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target thursday_lw6
+
+
+#############################################
+# Order-only phony target for thursday_lw6
+
+build cmake_object_order_depends_target_thursday_lw6: phony || .
+
+build CMakeFiles/thursday_lw6.dir/thursday_lw6.c.obj: C_COMPILER__thursday_lw6_unscanned_Debug C$:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/thursday_lw6.c || cmake_object_order_depends_target_thursday_lw6
+  DEP_FILE = CMakeFiles\thursday_lw6.dir\thursday_lw6.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\thursday_lw6.dir
+  OBJECT_FILE_DIR = CMakeFiles\thursday_lw6.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target thursday_lw6
+
+
+#############################################
+# Link the executable thursday_lw6.exe
+
+build thursday_lw6.exe: C_EXECUTABLE_LINKER__thursday_lw6_Debug CMakeFiles/thursday_lw6.dir/thursday_lw6.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\thursday_lw6.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = thursday_lw6.exe
+  TARGET_IMPLIB = libthursday_lw6.dll.a
+  TARGET_PDB = thursday_lw6.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1116,6 +1149,8 @@ build miles_to_km: phony miles_to_km.exe
 
 build single_blank: phony single_blank.exe
 
+build thursday_lw6: phony thursday_lw6.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -1124,7 +1159,7 @@ build single_blank: phony single_blank.exe
 #############################################
 # Folder: C:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/cmake-build-debug
 
-build all: phony main.exe hello_world.exe miles_to_km.exe f_to_c.exe c_to_f.exe f_to_c2.exe epp.exe epp2.exe char_counter.exe blank_tab_new_line.exe single_blank.exe capital_small_letter.exe labwork-1-1.exe letter_grades.exe lw3.exe hw1.exe lw3-b.exe lw3-c.exe lw3-d.exe lw4.exe hw2.exe arrays_in_class.exe in_class_apr_8.exe in_class_apr_14.exe how_many_times.exe lists_in_lists.exe hw4.exe hw5.exe apr5.exe hw6.exe
+build all: phony main.exe hello_world.exe miles_to_km.exe f_to_c.exe c_to_f.exe f_to_c2.exe epp.exe epp2.exe char_counter.exe blank_tab_new_line.exe single_blank.exe capital_small_letter.exe labwork-1-1.exe letter_grades.exe lw3.exe hw1.exe lw3-b.exe lw3-c.exe lw3-d.exe lw4.exe hw2.exe arrays_in_class.exe in_class_apr_8.exe in_class_apr_14.exe how_many_times.exe lists_in_lists.exe hw4.exe hw5.exe apr5.exe hw6.exe thursday_lw6.exe
 
 # =============================================================================
 # Built-in targets
