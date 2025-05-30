@@ -1063,6 +1063,105 @@ build lw7.exe: C_EXECUTABLE_LINKER__lw7_Debug CMakeFiles/lw7.dir/lw7.c.obj
   TARGET_IMPLIB = liblw7.dll.a
   TARGET_PDB = lw7.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target lw8_thursday
+
+
+#############################################
+# Order-only phony target for lw8_thursday
+
+build cmake_object_order_depends_target_lw8_thursday: phony || .
+
+build CMakeFiles/lw8_thursday.dir/lw8_thursday.c.obj: C_COMPILER__lw8_thursday_unscanned_Debug C$:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/lw8_thursday.c || cmake_object_order_depends_target_lw8_thursday
+  DEP_FILE = CMakeFiles\lw8_thursday.dir\lw8_thursday.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\lw8_thursday.dir
+  OBJECT_FILE_DIR = CMakeFiles\lw8_thursday.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lw8_thursday
+
+
+#############################################
+# Link the executable lw8_thursday.exe
+
+build lw8_thursday.exe: C_EXECUTABLE_LINKER__lw8_thursday_Debug CMakeFiles/lw8_thursday.dir/lw8_thursday.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\lw8_thursday.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = lw8_thursday.exe
+  TARGET_IMPLIB = liblw8_thursday.dll.a
+  TARGET_PDB = lw8_thursday.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target lw8
+
+
+#############################################
+# Order-only phony target for lw8
+
+build cmake_object_order_depends_target_lw8: phony || .
+
+build CMakeFiles/lw8.dir/lw8.c.obj: C_COMPILER__lw8_unscanned_Debug C$:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/lw8.c || cmake_object_order_depends_target_lw8
+  DEP_FILE = CMakeFiles\lw8.dir\lw8.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\lw8.dir
+  OBJECT_FILE_DIR = CMakeFiles\lw8.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lw8
+
+
+#############################################
+# Link the executable lw8.exe
+
+build lw8.exe: C_EXECUTABLE_LINKER__lw8_Debug CMakeFiles/lw8.dir/lw8.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\lw8.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = lw8.exe
+  TARGET_IMPLIB = liblw8.dll.a
+  TARGET_PDB = lw8.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target lw9_thursday
+
+
+#############################################
+# Order-only phony target for lw9_thursday
+
+build cmake_object_order_depends_target_lw9_thursday: phony || .
+
+build CMakeFiles/lw9_thursday.dir/lw9_thursday.c.obj: C_COMPILER__lw9_thursday_unscanned_Debug C$:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/lw9_thursday.c || cmake_object_order_depends_target_lw9_thursday
+  DEP_FILE = CMakeFiles\lw9_thursday.dir\lw9_thursday.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\lw9_thursday.dir
+  OBJECT_FILE_DIR = CMakeFiles\lw9_thursday.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lw9_thursday
+
+
+#############################################
+# Link the executable lw9_thursday.exe
+
+build lw9_thursday.exe: C_EXECUTABLE_LINKER__lw9_thursday_Debug CMakeFiles/lw9_thursday.dir/lw9_thursday.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\lw9_thursday.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = lw9_thursday.exe
+  TARGET_IMPLIB = liblw9_thursday.dll.a
+  TARGET_PDB = lw9_thursday.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1145,6 +1244,12 @@ build lw4: phony lw4.exe
 
 build lw7: phony lw7.exe
 
+build lw8: phony lw8.exe
+
+build lw8_thursday: phony lw8_thursday.exe
+
+build lw9_thursday: phony lw9_thursday.exe
+
 build miles_to_km: phony miles_to_km.exe
 
 build single_blank: phony single_blank.exe
@@ -1159,7 +1264,7 @@ build thursday_lw6: phony thursday_lw6.exe
 #############################################
 # Folder: C:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/cmake-build-debug
 
-build all: phony hello_world.exe miles_to_km.exe f_to_c.exe c_to_f.exe f_to_c2.exe epp.exe epp2.exe char_counter.exe blank_tab_new_line.exe single_blank.exe capital_small_letter.exe labwork-1-1.exe letter_grades.exe lw3.exe hw1.exe lw3-b.exe lw3-c.exe lw3-d.exe lw4.exe hw2.exe arrays_in_class.exe in_class_apr_8.exe in_class_apr_14.exe how_many_times.exe lists_in_lists.exe hw4.exe hw5.exe apr5.exe hw6.exe thursday_lw6.exe lw7.exe
+build all: phony hello_world.exe miles_to_km.exe f_to_c.exe c_to_f.exe f_to_c2.exe epp.exe epp2.exe char_counter.exe blank_tab_new_line.exe single_blank.exe capital_small_letter.exe labwork-1-1.exe letter_grades.exe lw3.exe hw1.exe lw3-b.exe lw3-c.exe lw3-d.exe lw4.exe hw2.exe arrays_in_class.exe in_class_apr_8.exe in_class_apr_14.exe how_many_times.exe lists_in_lists.exe hw4.exe hw5.exe apr5.exe hw6.exe thursday_lw6.exe lw7.exe lw8_thursday.exe lw8.exe lw9_thursday.exe
 
 # =============================================================================
 # Built-in targets

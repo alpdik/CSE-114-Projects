@@ -28,13 +28,11 @@ int first_index(int A[], int size, int n) {
 
 int count_in_array(int A[], int size, int n)
 {
-    int count = 0, index;
-    index = last_index( A, size, n );
-
-
-    while( index != -1 ){
-        count++;
-        index = last_index( A, index, n );
+    int count = 0;
+    for (int i = 0; i < size; i++) {
+        if (A[i] == n) {
+            count++;
+        }
     }
     return count;
 }
@@ -77,14 +75,77 @@ void print_array( int A[], int size ){
     printf( "\n" );
 }
 
+void add_after_term(int A[],int size,int term,int n)
+{
+
+
+    for (int i=0;i<size;i++)
+    {
+        if(A[i]==term)
+        {
+
+            for(int j=size; j>i;j--)
+            {
+
+                A[j]=A[j-1];
+            }
+            A[i+1]=n;
+            size++;
+            i++;
+        }
+    }
+}
+
+
+int multi_above(int A[],int size,int treshold)
+{
+    int x,y,count;
+    count=0;
+    for (int i=0; i < size; i++)
+    {
+        x=A[i];
+        for (int j=i; j < size; j++)
+        {
+            y=A[j];
+            if (x*y<treshold)
+            {
+                count++;
+            }
+        }
+    }
+
+    return count;
+
+}
+
+int decomp(int A[],int B[],int size)
+{
+    int k=0;
+    B[k]=A[0];
+    k++;
+    for (int i=1; i < size; i++)
+    {
+
+        if (A[i]-A[i-1]!=1)
+        {
+            B[k]=A[i];
+            k++;
+        }
+    }
+    return k;
+}
+
+
 
 int main()
 {
-    int A[SIZE]={7, 81, 32 ,81, 69, 55, 47, 81, 75};
-    int exit_code=partial_reverse(A,SIZE,81);
-    printf("THE REVERSED ARRAY: ");
-    print_array(A, SIZE);
-    printf("THE EXIT CODE: %d\n", exit_code);
+    int A[SIZE]={1,2,3,7,9,10};
+    int B[]={};
+    char test[]="";
+    int newsize=decomp(A,B,6);
+    print_array(B,newsize);
+    printf("%s\n",test);
+
 
     return 0;
 }
