@@ -82,7 +82,7 @@ int recursiveGCD(int a,int b)
     }
 }
 
-int recursivePrimeCheck(int number,int temp)
+int recursivePrimeCheck(int number,int temp) //temp is: number-1
 {
 
     if (number==1)
