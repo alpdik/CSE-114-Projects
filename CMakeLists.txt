@@ -37,4 +37,4 @@ add_executable(lw8 lw8.c)
 add_executable(lw9_thursday lw9_thursday.c)
 add_executable(in_class_jun_2 in_class_jun_2.c)
 add_executable(hw7 hw7.c)
-
+add_executable(hw8 hw8.c)
