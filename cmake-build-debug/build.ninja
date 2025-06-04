@@ -1261,6 +1261,39 @@ build hw8.exe: C_EXECUTABLE_LINKER__hw8_Debug CMakeFiles/hw8.dir/hw8.c.obj
   TARGET_IMPLIB = libhw8.dll.a
   TARGET_PDB = hw8.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target hw9
+
+
+#############################################
+# Order-only phony target for hw9
+
+build cmake_object_order_depends_target_hw9: phony || .
+
+build CMakeFiles/hw9.dir/hw9.c.obj: C_COMPILER__hw9_unscanned_Debug C$:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/hw9.c || cmake_object_order_depends_target_hw9
+  DEP_FILE = CMakeFiles\hw9.dir\hw9.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\hw9.dir
+  OBJECT_FILE_DIR = CMakeFiles\hw9.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target hw9
+
+
+#############################################
+# Link the executable hw9.exe
+
+build hw9.exe: C_EXECUTABLE_LINKER__hw9_Debug CMakeFiles/hw9.dir/hw9.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\hw9.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = hw9.exe
+  TARGET_IMPLIB = libhw9.dll.a
+  TARGET_PDB = hw9.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1325,6 +1358,8 @@ build hw7: phony hw7.exe
 
 build hw8: phony hw8.exe
 
+build hw9: phony hw9.exe
+
 build in_class_apr_14: phony in_class_apr_14.exe
 
 build in_class_apr_8: phony in_class_apr_8.exe
@@ -1369,7 +1404,7 @@ build thursday_lw6: phony thursday_lw6.exe
 #############################################
 # Folder: C:/Users/alpdi/OneDrive/Documents/GitHub/CSE-114-Pojects/cmake-build-debug
 
-build all: phony hello_world.exe miles_to_km.exe f_to_c.exe c_to_f.exe f_to_c2.exe epp.exe epp2.exe char_counter.exe blank_tab_new_line.exe single_blank.exe capital_small_letter.exe labwork-1-1.exe letter_grades.exe lw3.exe hw1.exe lw3-b.exe lw3-c.exe lw3-d.exe lw4.exe hw2.exe arrays_in_class.exe in_class_apr_8.exe in_class_apr_14.exe how_many_times.exe lists_in_lists.exe hw4.exe hw5.exe apr5.exe hw6.exe thursday_lw6.exe lw7.exe lw8_thursday.exe lw8.exe lw9_thursday.exe in_class_jun_2.exe hw7.exe hw8.exe
+build all: phony hello_world.exe miles_to_km.exe f_to_c.exe c_to_f.exe f_to_c2.exe epp.exe epp2.exe char_counter.exe blank_tab_new_line.exe single_blank.exe capital_small_letter.exe labwork-1-1.exe letter_grades.exe lw3.exe hw1.exe lw3-b.exe lw3-c.exe lw3-d.exe lw4.exe hw2.exe arrays_in_class.exe in_class_apr_8.exe in_class_apr_14.exe how_many_times.exe lists_in_lists.exe hw4.exe hw5.exe apr5.exe hw6.exe thursday_lw6.exe lw7.exe lw8_thursday.exe lw8.exe lw9_thursday.exe in_class_jun_2.exe hw7.exe hw8.exe hw9.exe
 
 # =============================================================================
 # Built-in targets
